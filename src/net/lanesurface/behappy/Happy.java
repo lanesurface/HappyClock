@@ -22,7 +22,8 @@ import javax.imageio.ImageIO;
 import javax.swing.JFrame;
 
 public class Happy extends JFrame {
-    public static final int WIDTH = 1920, HEIGHT = 1080;
+    public static final int WIDTH = 400,
+                            HEIGHT = 240;
     public static final String WINDOW_STRING = "Be Happy!",
                                WINDOW_STRING_SUB = "Even death isn't feared " +
                                        "by those who have lived wisely.";
@@ -84,7 +85,6 @@ public class Happy extends JFrame {
 
         g.dispose();
     }
-
     public static void main(String[] args) {
         try {
             Happy happy = new Happy();
